@@ -1,3 +1,9 @@
+body{
+    background-image: url(images/background.jpg);
+    color: white;
+    font: bold;
+}
 .wrapper{
     padding: 10px;
+    font: italic;
 }

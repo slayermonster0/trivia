@@ -66,12 +66,12 @@ $( document ).ready(function() {
     
             $('.wrapper').show();
             console.log('hello');
-    
+            run();
             $(this).hide();
         });
     
         
-        var number = 30;
+        var number = 35;
         $('#timeLeft').on('click', run);
     
 
@@ -81,6 +81,7 @@ $( document ).ready(function() {
             if (number === 0){
             stop();
             $('#message').html('time up!');
+            alert("Times Up")
             checkAnswers();
             }
         }
