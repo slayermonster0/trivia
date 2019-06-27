@@ -4,32 +4,32 @@ $( document ).ready(function() {
             questions: [
             {
                    question: 'what company developed Halo reach?',
-                   possibles: ['343 Industries', 'bungie', 'treyarch', 'activision'],
+                   possibles: ['343 Industries', 'Bungie', 'treyarch', 'activision'],
                    id: 'question-one',
                    answer: 1
             }, {
                 question: 'what company developed call of duty 4 modern warfare?',
-                possibles: ['treyarch', 'activision', 'bungie', 'infinity ward', 'call of duty'],
+                possibles: ['treyarch', 'activision', 'Bungie', 'infinity ward', 'call of duty'],
                 id: 'question-two',
                 answer: 3
             }, {
                 question: 'what company developed banjo kazooie?',
-                possibles: ['rare', 'bungie', 'from soft', 'sledgehammer games', 'none of the above'],
+                possibles: ['rare', 'Bungie', 'from soft', 'sledgehammer games', 'none of the above'],
                 id: 'question-three',
                 answer: 0
             }, {
                 question: 'what company published destiny?',
-                possibles: ['bungie', 'blizzard', 'activision', 'destini', 'none of the above'],
+                possibles: ['Bungie', 'blizzard', 'activision', 'destini', 'none of the above'],
                 id: 'question-four',
                 answer: 2
             }, {
                 question: 'what company published destiny 2 shadowkeep?',
-                possibles: ['activision', 'blizzard', 'bungie', 'pokemon', 'none of the above'],
+                possibles: ['activision', 'blizzard', 'Bungie', 'pokemon', 'none of the above'],
                 id: 'question-five',
                 answer: 2
             }, {
                 question: 'what company developed halo: combat evolved(aniversary)?',
-                possibles: ['bungie', '343 Industries', 'activision', 'microsoft', 'xbox'],
+                possibles: ['Bungie', '343 Industries', 'activision', 'microsoft', 'xbox'],
                 id: 'question-six',
                 answer: 1
     
@@ -59,16 +59,6 @@ $( document ).ready(function() {
         
         var message = 'Game Over!';
         
-        
-    
-    
-        $(".startGame").on("click", function (){
-    
-            $('.wrapper').show();
-            console.log('hello');
-            run();
-            $(this).hide();
-        });
     
         
         var number = 35;

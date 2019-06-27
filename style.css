@@ -1,9 +1,11 @@
 body{
-    background-image: url(images/background.jpg);
+    background-image: url(images/background.png);
+    background-size: 100%;
     color: white;
     font: bold;
+    text-align: center;
 }
 .wrapper{
     padding: 10px;
-    font: italic;
+    font-size: 20px;
 }
